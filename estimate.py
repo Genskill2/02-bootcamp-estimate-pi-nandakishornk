@@ -8,7 +8,7 @@ def wallis(n):
         t1=(4*(i*i))-1
         t2=1+(1/t1)
         pi*=t2
-    return pi
+    return 2*pi
 
 def monte_carlo(n):
     t=0
