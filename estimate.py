@@ -18,9 +18,9 @@ def monte_carlo(n):
         y=random.random()
         d=math.sqrt(x*x+y*y)
         if d<=1:
-            t++
+            t=t+1
         else:
-            f++
+            f=f+1
     return 4*(t/f)
 
 class TestWallis(unittest.TestCase):
