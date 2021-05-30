@@ -19,9 +19,7 @@ def monte_carlo(n):
         d=math.sqrt(x*x+y*y)
         if d<1:
             t=t+1
-        else:
-            f=f+1
-    return 4*(t/f)
+    return 4*(t/n)
 
 class TestWallis(unittest.TestCase):
     def test_low_iters(self):
