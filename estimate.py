@@ -17,7 +17,7 @@ def monte_carlo(n):
         x=random.random()
         y=random.random()
         d=math.sqrt(x*x+y*y)
-        if d<=1:
+        if d<1:
             t=t+1
         else:
             f=f+1
