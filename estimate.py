@@ -6,7 +6,7 @@ def wallis(n):
     pi=1
     for i in range(1,n+1):
         t1=(4*(i*i))-1
-        t2=1+(1/t2)
+        t2=1+(1/t1)
         pi*=t2
     return pi
 
